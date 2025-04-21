@@ -27,6 +27,9 @@ async function deepseek(prompt, dirChat, globalChat) {
 
     writeJSONFileSync(dirChat, chatHistory);
 
+    console.log(response.total_tokens, 'Total Tokens');
+    console.log(`${ response.cost } CNY`, 'Total Cost');
+
     return response.message;
 }
 
