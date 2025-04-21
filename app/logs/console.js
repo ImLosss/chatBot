@@ -2,7 +2,7 @@ require('module-alias/register');
 const fs = require('fs');
 const moment = require('moment-timezone');
 const lockfile = require('proper-lockfile');
-const { getLocation, getLocationError } = require('function/utils');
+const { getLocation, getLocationError, readJSONFileSync, writeJSONFileSync } = require('function/utils');
 const CircularJSON = require('circular-json');
 
 async function error(errorMsg) {
@@ -13,7 +13,11 @@ async function error(errorMsg) {
 
         console.log(`[${ time } / error] ${ errorMsg.message }`);
 
-        let errorData = readJSONFileSync('app/logs/error.json')
+        let errorData = [];
+
+        if(fs.existsSync(`app/logs/error.json`)) {
+            errorData = readJSONFileSync(`app/logs/error.json`)
+        }
 
         const stackLines = errorMsg.stack.split('\n');
 
@@ -47,7 +51,11 @@ async function log(log, type = 'info') {
         }
         console.log(`[${ time } / ${ type }] ${ log }`);
 
-        let logData = readJSONFileSync(`app/logs/log.json`);
+        let logData = [];
+
+        if(fs.existsSync(`app/logs/log.json`)) {
+            logData = readJSONFileSync(`app/logs/log.json`)
+        }
          
         const data = {
             type: type,
@@ -76,44 +84,6 @@ function getTime() {
     const menit = time.format('mm');
 
     return `${ tanggal } / ${ jam }:${ menit }`;
-}
-
-function readJSONFileSync(filePath) {
-    let release;
-    try {
-        // Lock the file for reading
-        release = lockfile.lockSync(filePath);
-        
-        let fileContent = fs.readFileSync(filePath, 'utf-8');
-
-        if(fileContent == '') fileContent = [];
-        else fileContent = JSON.parse(fileContent);
-
-        return fileContent;
-    } catch (error) {
-        return [];
-    } finally {
-        if (release) {
-            release();
-        }
-    }
-}
-
-function writeJSONFileSync(filePath, data) {
-    let release;
-    try {
-        // Lock the file for writing
-        release = lockfile.lockSync(filePath);
-        
-        const jsonData = JSON.stringify(data, null, 2);
-        fs.writeFileSync(filePath, jsonData, 'utf-8');
-    } catch (error) {
-        console.error('Error writing file:', error);
-    } finally {
-        if (release) {
-            release();
-        }
-    }
 }
 
 module.exports = {
