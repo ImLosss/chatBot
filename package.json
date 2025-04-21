@@ -1,0 +1,27 @@
+{
+    "author": "https://github.com/ImLosss",
+    "scripts": {
+        "start": "nodemon index.js",
+        "restart": "nodemon index.js"
+    },
+    "dependencies": {
+        "axios": "^1.8.4",
+        "circular-json": "^0.5.9",
+        "module-alias": "^2.2.3",
+        "moment-timezone": "^0.5.45",
+        "nodemon": "^3.1.4",
+        "proper-lockfile": "^4.1.2",
+        "qrcode": "^1.5.4",
+        "qrcode-terminal": "^0.12.0",
+        "whatsapp-web.js": "^1.26.0"
+    },
+    "_moduleAliases": {
+        "listeners": "./listeners",
+        "import": "./app/import",
+        "function": "./app/function",
+        "console": "./app/logs/console",
+        "controller": "./app/controllers",
+        "service": "./app/service",
+        "utils": "./app/function/utils"
+    }
+}

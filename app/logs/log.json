@@ -1,0 +1,374 @@
+[
+  {
+    "type": "info",
+    "date": "2025-04-21 / 22:53",
+    "location": "SetupClient.js:29:29",
+    "message": "QR code successfully saved as qrcode.png"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 22:54",
+    "location": "SetupClient.js:29:29",
+    "message": "QR code successfully saved as qrcode.png"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:08",
+    "location": "SetupClient.js:29:29",
+    "message": "QR code successfully saved as qrcode.png"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:08",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:09",
+    "location": "SetupClient.js:29:29",
+    "message": "QR code successfully saved as qrcode.png"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:10",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:10",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:11",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:11",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:11",
+    "location": "AskController.js:10:13"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:12",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:12",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:12",
+    "location": "AskController.js:10:13"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:14",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:15",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:16",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:16",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:16",
+    "location": "AskController.js:15:13",
+    "message": "{\r\n    \"DEEPSEEK_APIKEY\": \"sk-6fb7ffb7df274f13a6497d492565cded\",\r\n    \"GLOBAL_CHAT\": \"You are a helpfull Assistant\"\r\n}"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:17",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:17",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:17",
+    "location": "AskController.js:10:13"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:18",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:18",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:18",
+    "location": "AskController.js:10:13"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:18",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:18",
+    "location": "CommandHandler.js:36:37",
+    "message": "tess"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:18",
+    "location": "AskController.js:10:13"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:19",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:19",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:19",
+    "location": "AskController.js:10:13"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:20",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:20",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:20",
+    "location": "AskController.js:10:13",
+    "message": "{\"DEEPSEEK_APIKEY\":\"sk-6fb7ffb7df274f13a6497d492565cded\",\"GLOBAL_CHAT\":\"You are a helpfull Assistant\"}"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:21",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:21",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:21",
+    "location": "deepseek.js:53:17",
+    "message": "{\"id\":\"09baa95d-b0b8-49a3-860a-87ac0ae4574d\",\"object\":\"chat.completion\",\"created\":1745248892,\"model\":\"deepseek-chat\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Halo! 😊 How can I assist you today?\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":11,\"completion_tokens\":12,\"total_tokens\":23,\"prompt_tokens_details\":{\"cached_tokens\":0},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":11},\"system_fingerprint\":\"fp_3d5141a69a_prod0225\"}"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:22",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:22",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:22",
+    "location": "deepseek.js:53:17",
+    "message": "{\"id\":\"92883f95-fa0f-4496-94b3-69ceedc14f26\",\"object\":\"chat.completion\",\"created\":1745248965,\"model\":\"deepseek-chat\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Halo! 😊 How can I assist you today?\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":11,\"completion_tokens\":12,\"total_tokens\":23,\"prompt_tokens_details\":{\"cached_tokens\":0},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":11},\"system_fingerprint\":\"fp_3d5141a69a_prod0225\"}"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:27",
+    "location": "SetupClient.js:7:9",
+    "message": "tess"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:27",
+    "location": "SetupClient.js:38:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:27",
+    "location": "SetupClient.js:38:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:31",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:31",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:31",
+    "location": "deepseek.js:53:17",
+    "message": "{\"id\":\"1f090b92-fa9e-43ba-b7fb-94644d85476f\",\"object\":\"chat.completion\",\"created\":1745249486,\"model\":\"deepseek-chat\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Halo! 😊 How can I assist you today?\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":11,\"completion_tokens\":12,\"total_tokens\":23,\"prompt_tokens_details\":{\"cached_tokens\":0},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":11},\"system_fingerprint\":\"fp_3d5141a69a_prod0225\"}"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:32",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:32",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:32",
+    "location": "deepseek.js:20:13",
+    "message": "[{\"role\":\"system\",\"content\":\"You are a helpfull Assistant\"},{\"role\":\"system\",\"content\":\"You are a helpfull Assistant\"},{\"role\":\"user\",\"content\":\"halo\"},{\"role\":\"assistant\",\"content\":\"Halo! 😊 How can I assist you today?\"},{\"role\":\"user\",\"content\":\"halo\"}]"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:33",
+    "location": "CommandHandler.js:36:37",
+    "message": "tess"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:33",
+    "location": "deepseek.js:20:13",
+    "message": "[{\"role\":\"system\",\"content\":\"You are a helpfull Assistant\"},{\"role\":\"user\",\"content\":\"halo\"},{\"role\":\"assistant\",\"content\":\"Halo! 😊 How can I assist you today?\"},{\"role\":\"user\",\"content\":\"tess\"}]"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:34",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:34",
+    "location": "deepseek.js:20:13",
+    "message": "[{\"role\":\"system\",\"content\":\"You are a helpfull Assistant\"},{\"role\":\"user\",\"content\":\"halo\"}]"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:36",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:37",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:37",
+    "location": "deepseek.js:20:13",
+    "message": "[{\"role\":\"user\",\"content\":\"halo\"}]"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:37",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "info",
+    "date": "2025-04-21 / 23:38",
+    "location": "SetupClient.js:36:21",
+    "message": "Client is ready!"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:38",
+    "location": "CommandHandler.js:36:37",
+    "message": "halo"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:38",
+    "location": "deepseek.js:53:17",
+    "message": "{\"id\":\"11f31dac-9be1-4225-b1d3-cf8d1e9fb4ce\",\"object\":\"chat.completion\",\"created\":1745249901,\"model\":\"deepseek-chat\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Hello! How can I assist you today? 😊\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":11,\"completion_tokens\":11,\"total_tokens\":22,\"prompt_tokens_details\":{\"cached_tokens\":0},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":11},\"system_fingerprint\":\"fp_3d5141a69a_prod0225\"}"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:38",
+    "location": "CommandHandler.js:36:37",
+    "message": "contoh perkalian matriks"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:39",
+    "location": "deepseek.js:53:17",
+    "message": "{\"id\":\"1d6631b4-4917-4123-9372-9239db285c3a\",\"object\":\"chat.completion\",\"created\":1745249938,\"model\":\"deepseek-chat\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Berikut adalah contoh perkalian matriks beserta langkah-langkahnya:\\n\\n### Contoh:\\nDiberikan matriks **A** dan **B** sebagai berikut:\\n\\n**Matriks A** (2x3):\\n\\\\[\\nA = \\\\begin{pmatrix}\\n1 & 2 & 3 \\\\\\\\\\n4 & 5 & 6 \\\\\\\\\\n\\\\end{pmatrix}\\n\\\\]\\n\\n**Matriks B** (3x2):\\n\\\\[\\nB = \\\\begin{pmatrix}\\n7 & 8 \\\\\\\\\\n9 & 10 \\\\\\\\\\n11 & 12 \\\\\\\\\\n\\\\end{pmatrix}\\n\\\\]\\n\\n### Langkah Perkalian:\\nPerkalian matriks **A × B** menghasilkan matriks **C** dengan ukuran 2x2. Setiap elemen **C** dihitung dengan rumus:\\n\\\\[\\nC_{ij} = \\\\sum_{k=1}^{n} (A_{ik} \\\\times B_{kj})\\n\\\\]\\n\\n#### 1. Hitung Elemen \\\\( C_{11} \\\\):\\n\\\\[\\nC_{11} = (1 \\\\times 7) + (2 \\\\times 9) + (3 \\\\times 11) = 7 + 18 + 33 = 58\\n\\\\]\\n\\n#### 2. Hitung Elemen \\\\( C_{12} \\\\):\\n\\\\[\\nC_{12} = (1 \\\\times 8) + (2 \\\\times 10) + (3 \\\\times 12) = 8 + 20 + 36 = 64\\n\\\\]\\n\\n#### 3. Hitung Elemen \\\\( C_{21} \\\\):\\n\\\\[\\nC_{21} = (4 \\\\times 7) + (5 \\\\times 9) + (6 \\\\times 11) = 28 + 45 + 66 = 139\\n\\\\]\\n\\n#### 4. Hitung Elemen \\\\( C_{22} \\\\):\\n\\\\[\\nC_{22} = (4 \\\\times 8) + (5 \\\\times 10) + (6 \\\\times 12) = 32 + 50 + 72 = 154\\n\\\\]\\n\\n### Hasil Perkalian (**C**):\\n\\\\[\\nC = A \\\\times B = \\\\begin{pmatrix}\\n58 & 64 \\\\\\\\\\n139 & 154 \\\\\\\\\\n\\\\end{pmatrix}\\n```\\n\\n### Syarat Perkalian Matriks:\\n- Jumlah kolom matriks pertama (**A**) harus sama dengan jumlah baris matriks kedua (**B**).\\n- Pada contoh di atas, **A** berukuran 2x3 dan **B** berukuran 3x2, sehingga hasilnya adalah matriks 2x2.\\n\\nJika Anda ingin mencoba contoh lain atau mempelajari lebih lanjut, beri tahu saya! 😊\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":32,\"completion_tokens\":550,\"total_tokens\":582,\"prompt_tokens_details\":{\"cached_tokens\":0},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":32},\"system_fingerprint\":\"fp_3d5141a69a_prod0225\"}"
+  },
+  {
+    "type": "cmd:ask",
+    "date": "2025-04-21 / 23:39",
+    "location": "CommandHandler.js:36:37",
+    "message": "kalau penjumlahan?"
+  },
+  {
+    "type": "object",
+    "date": "2025-04-21 / 23:40",
+    "location": "deepseek.js:53:17",
+    "message": "{\"id\":\"7ed6859b-5db5-4cd7-b86a-9300ca59ba41\",\"object\":\"chat.completion\",\"created\":1745249987,\"model\":\"deepseek-chat\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Berikut adalah contoh **penjumlahan matriks** beserta langkah-langkahnya:\\n\\n### Syarat Penjumlahan Matriks:\\n- Kedua matriks harus memiliki **ukuran yang sama** (jumlah baris dan kolom identik).\\n\\n---\\n\\n### Contoh:\\nDiberikan matriks **A** dan **B** berukuran 2x2:\\n\\n**Matriks A**:\\n\\\\[\\nA = \\\\begin{pmatrix}\\n1 & 3 \\\\\\\\\\n5 & 7 \\\\\\\\\\n\\\\end{pmatrix}\\n\\\\]\\n\\n**Matriks B**:\\n\\\\[\\nB = \\\\begin{pmatrix}\\n2 & 4 \\\\\\\\\\n6 & 8 \\\\\\\\\\n\\\\end{pmatrix}\\n\\\\]\\n\\n### Langkah Penjumlahan:\\nHasil penjumlahan \\\\( C = A + B \\\\) dihitung dengan **menjumlahkan elemen yang seposisi**:\\n\\\\[\\nC_{ij} = A_{ij} + B_{ij}\\n\\\\]\\n\\n#### 1. Elemen \\\\( C_{11} \\\\):\\n\\\\[\\nC_{11} = 1 + 2 = 3\\n\\\\]\\n\\n#### 2. Elemen \\\\( C_{12} \\\\):\\n\\\\[\\nC_{12} = 3 + 4 = 7\\n\\\\]\\n\\n#### 3. Elemen \\\\( C_{21} \\\\):\\n\\\\[\\nC_{21} = 5 + 6 = 11\\n\\\\]\\n\\n#### 4. Elemen \\\\( C_{22} \\\\):\\n\\\\[\\nC_{22} = 7 + 8 = 15\\n\\\\]\\n\\n### Hasil Penjumlahan (**C**):\\n\\\\[\\nC = A + B = \\\\begin{pmatrix}\\n3 & 7 \\\\\\\\\\n11 & 15 \\\\\\\\\\n\\\\end{pmatrix}\\n```\\n\\n---\\n\\n### Contoh Lain (3x3):\\n**Matriks P**:\\n\\\\[\\nP = \\\\begin{pmatrix}\\n1 & 0 & -1 \\\\\\\\\\n2 & 3 & 4 \\\\\\\\\\n-5 & 6 & 7 \\\\\\\\\\n\\\\end{pmatrix}\\n\\\\]\\n\\n**Matriks Q**:\\n\\\\[\\nQ = \\\\begin{pmatrix}\\n2 & 1 & 0 \\\\\\\\\\n-3 & 4 & 2 \\\\\\\\\\n1 & -2 & 3 \\\\\\\\\\n\\\\end{pmatrix}\\n\\\\]\\n\\n**Hasil \\\\( P + Q \\\\)**:\\n\\\\[\\nP + Q = \\\\begin{pmatrix}\\n1+2 & 0+1 & -1+0 \\\\\\\\\\n2-3 & 3+4 & 4+2 \\\\\\\\\\n-5+1 & 6-2 & 7+3 \\\\\\\\\\n\\\\end{pmatrix}\\n= \\\\begin{pmatrix}\\n3 & 1 & -1 \\\\\\\\\\n-1 & 7 & 6 \\\\\\\\\\n-4 & 4 & 10 \\\\\\\\\\n\\\\end{pmatrix}\\n\\\\]\\n\\n---\\n\\n### Catatan:\\n- Jika ukuran matriks berbeda, penjumlahan **tidak bisa dilakukan**.  \\n  Contoh: Matriks 2x2 **tidak bisa** dijumlahkan dengan matriks 3x3.\\n\\nSemoga membantu! 😊\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":592,\"completion_tokens\":597,\"total_tokens\":1189,\"prompt_tokens_details\":{\"cached_tokens\":512},\"prompt_cache_hit_tokens\":512,\"prompt_cache_miss_tokens\":80},\"system_fingerprint\":\"fp_3d5141a69a_prod0225\"}"
+  }
+]

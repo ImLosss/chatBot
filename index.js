@@ -9,6 +9,6 @@ const bot = new Client({
     }
 });
 
-require('import')(bot);
+require('import/start')(bot);
 
 bot.initialize();
