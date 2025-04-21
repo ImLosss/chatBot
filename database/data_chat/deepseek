@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "role": "user",
+    "content": "halo"
+  },
+  {
+    "role": "assistant",
+    "content": "Halo! 😊 How can I assist you today?"
+  }
+]

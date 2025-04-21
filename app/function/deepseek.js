@@ -29,6 +29,7 @@ async function deepseek(prompt, dirChat, globalChat) {
 
     console.log(response.total_tokens, 'Total Tokens');
     console.log(`${ response.cost } CNY`, 'Total Cost');
+    console.log(`${ response.total_balance } CNY`, 'Sisa Saldo');
 
     return response.message;
 }
@@ -38,6 +39,8 @@ async function reqDeepseek(chatHistory, model) {
 
     let error;
     const url = 'https://api.deepseek.com/chat/completions';
+
+    const url2 = 'https://api.deepseek.com/user/balance'
 
     const headers = {
         'accept': 'application/json',
@@ -55,7 +58,10 @@ async function reqDeepseek(chatHistory, model) {
     
     try {
         const response = await axios.post(url, data, { headers, timeout: 300000 });
-        console.log(response.data);
+        const response2 = await axios.get(url2, { headers, timeout: 300000 });
+
+        const cnyBalance = response2.data.balance_infos.find(info => info.currency === "CNY");
+        
         if(response.data == '') return { status: false, message: error };
         
         const response_message = response.data.choices[0].message.content;
@@ -67,7 +73,8 @@ async function reqDeepseek(chatHistory, model) {
             status: true,
             message: response_message,
             total_tokens: response.data.usage.total_tokens,
-            cost: cost_input_hit_cny + cost_input_miss_cny + cost_output_cny
+            cost: cost_input_hit_cny + cost_input_miss_cny + cost_output_cny,
+            total_balance: cnyBalance.total_balance
         } 
     } catch (err) {
         error = err.message;
